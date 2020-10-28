@@ -100,6 +100,6 @@ class Bono():
                                 self.plazo, self.frecuencia).precio)
 
         plt.plot(tasas, precios)
-        plt.xlabel("Tasa de interés (%)")
-        plt.ylabel("Precio")
+        plt.xlabel("Precio")
+        plt.ylabel("Tasa de interés (%)")
         plt.show()
